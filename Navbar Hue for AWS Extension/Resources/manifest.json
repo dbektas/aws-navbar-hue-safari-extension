@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "AWS Navbar Hue",
+    "description": "Changes AWS console's navbar color depending on the region you select.",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "favicon.png",
+        "default_popup": "popup.html",
+        "default_title": "AWS Navbar Hue"
+    },
+    "content_scripts": [{
+        "matches": ["https://*.console.aws.amazon.com/*"],
+        "all_frames": true,
+        "js": [
+            "scripts/jquery-3.4.1.min.js", 
+            "scripts/content.js", 
+            "scripts/extension.js"
+        ]
+    }],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+	"icons": {  "16": "favicon-16x16.png",
+				"32": "favicon-32x32.png",
+                "64": "favicon-64x64.png",
+                "128": "store_icon-128x128.png"
+    },
+    "web_accessible_resources": [ 
+        "flags/*.png", 
+        "data/*.json" 
+    ],
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Period"
+            }
+        }
+    }
+}
