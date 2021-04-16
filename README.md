@@ -1,5 +1,7 @@
 # AWS Navbar Hue - Extension for Safari
 
+![screenshot](./screenshot.png)
+
 ### Description
 This extension for Safari changes the AWS console's navbar color depending on the region you selected. This visual hint will help you avoid creating resources in the wrong region !
 It also adds the code along the region, by example for Frankfurt : eu-central-1, a number of AZs in the region and a flag corresponding to the country the region belongs to.
