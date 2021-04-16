@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314DEC87262979B50014FABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314DEC86262979B50014FABA /* AppDelegate.swift */; };
+		314DEC8A262979B50014FABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314DEC88262979B50014FABA /* Main.storyboard */; };
+		314DEC8C262979B50014FABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314DEC8B262979B50014FABA /* ViewController.swift */; };
+		314DEC8E262979B70014FABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314DEC8D262979B70014FABA /* Assets.xcassets */; };
+		314DEC95262979B70014FABA /* Navbar Hue for AWS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 314DEC94262979B70014FABA /* Navbar Hue for AWS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		314DEC9A262979B70014FABA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314DEC99262979B70014FABA /* Cocoa.framework */; };
+		314DEC9D262979B70014FABA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314DEC9C262979B70014FABA /* SafariWebExtensionHandler.swift */; };
+		314DECB9262979B80014FABA /* favicon-16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAA262979B80014FABA /* favicon-16x16.png */; };
+		314DECBA262979B80014FABA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAB262979B80014FABA /* icon.png */; };
+		314DECBB262979B80014FABA /* flags in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAC262979B80014FABA /* flags */; };
+		314DECBC262979B80014FABA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAD262979B80014FABA /* LICENSE */; };
+		314DECBD262979B80014FABA /* css in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAE262979B80014FABA /* css */; };
+		314DECBE262979B80014FABA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAF262979B80014FABA /* popup.html */; };
+		314DECBF262979B80014FABA /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB0262979B80014FABA /* _metadata */; };
+		314DECC0262979B80014FABA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB1262979B80014FABA /* README.md */; };
+		314DECC1262979B80014FABA /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB2262979B80014FABA /* favicon.png */; };
+		314DECC2262979B80014FABA /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB3262979B80014FABA /* scripts */; };
+		314DECC3262979B80014FABA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB4262979B80014FABA /* manifest.json */; };
+		314DECC4262979B80014FABA /* favicon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB5262979B80014FABA /* favicon-64x64.png */; };
+		314DECC5262979B80014FABA /* data in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB6262979B80014FABA /* data */; };
+		314DECC6262979B80014FABA /* store_icon-128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB7262979B80014FABA /* store_icon-128x128.png */; };
+		314DECC7262979B80014FABA /* favicon-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB8262979B80014FABA /* favicon-32x32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314DEC96262979B70014FABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314DEC7A262979B50014FABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314DEC93262979B70014FABA;
+			remoteInfo = "Navbar Hue for AWS Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		314DECA5262979B70014FABA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				314DEC95262979B70014FABA /* Navbar Hue for AWS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		314DEC82262979B50014FABA /* Navbar Hue for AWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navbar Hue for AWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314DEC85262979B50014FABA /* Navbar_Hue_for_AWS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Navbar_Hue_for_AWS.entitlements; sourceTree = "<group>"; };
+		314DEC86262979B50014FABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		314DEC89262979B50014FABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		314DEC8B262979B50014FABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		314DEC8D262979B70014FABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		314DEC8F262979B70014FABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314DEC94262979B70014FABA /* Navbar Hue for AWS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Navbar Hue for AWS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314DEC99262979B70014FABA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		314DEC9C262979B70014FABA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		314DEC9E262979B70014FABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314DEC9F262979B70014FABA /* Navbar_Hue_for_AWS_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Navbar_Hue_for_AWS_Extension.entitlements; sourceTree = "<group>"; };
+		314DECAA262979B80014FABA /* favicon-16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favicon-16x16.png"; path = "../../aws-navbar-hue/favicon-16x16.png"; sourceTree = "<group>"; };
+		314DECAB262979B80014FABA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../aws-navbar-hue/icon.png"; sourceTree = "<group>"; };
+		314DECAC262979B80014FABA /* flags */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flags; path = "../../aws-navbar-hue/flags"; sourceTree = "<group>"; };
+		314DECAD262979B80014FABA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../aws-navbar-hue/LICENSE"; sourceTree = "<group>"; };
+		314DECAE262979B80014FABA /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../aws-navbar-hue/css"; sourceTree = "<group>"; };
+		314DECAF262979B80014FABA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../aws-navbar-hue/popup.html"; sourceTree = "<group>"; };
+		314DECB0262979B80014FABA /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../aws-navbar-hue/_metadata"; sourceTree = "<group>"; };
+		314DECB1262979B80014FABA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../aws-navbar-hue/README.md"; sourceTree = "<group>"; };
+		314DECB2262979B80014FABA /* favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favicon.png; path = "../../aws-navbar-hue/favicon.png"; sourceTree = "<group>"; };
+		314DECB3262979B80014FABA /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = "../../aws-navbar-hue/scripts"; sourceTree = "<group>"; };
+		314DECB4262979B80014FABA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../aws-navbar-hue/manifest.json"; sourceTree = "<group>"; };
+		314DECB5262979B80014FABA /* favicon-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favicon-64x64.png"; path = "../../aws-navbar-hue/favicon-64x64.png"; sourceTree = "<group>"; };
+		314DECB6262979B80014FABA /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = "../../aws-navbar-hue/data"; sourceTree = "<group>"; };
+		314DECB7262979B80014FABA /* store_icon-128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "store_icon-128x128.png"; path = "../../aws-navbar-hue/store_icon-128x128.png"; sourceTree = "<group>"; };
+		314DECB8262979B80014FABA /* favicon-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favicon-32x32.png"; path = "../../aws-navbar-hue/favicon-32x32.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314DEC7F262979B50014FABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314DEC91262979B70014FABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314DEC9A262979B70014FABA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314DEC79262979B50014FABA = {
+			isa = PBXGroup;
+			children = (
+				314DEC84262979B50014FABA /* Navbar Hue for AWS */,
+				314DEC9B262979B70014FABA /* Navbar Hue for AWS Extension */,
+				314DEC98262979B70014FABA /* Frameworks */,
+				314DEC83262979B50014FABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314DEC83262979B50014FABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314DEC82262979B50014FABA /* Navbar Hue for AWS.app */,
+				314DEC94262979B70014FABA /* Navbar Hue for AWS Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314DEC84262979B50014FABA /* Navbar Hue for AWS */ = {
+			isa = PBXGroup;
+			children = (
+				314DEC85262979B50014FABA /* Navbar_Hue_for_AWS.entitlements */,
+				314DEC86262979B50014FABA /* AppDelegate.swift */,
+				314DEC88262979B50014FABA /* Main.storyboard */,
+				314DEC8B262979B50014FABA /* ViewController.swift */,
+				314DEC8D262979B70014FABA /* Assets.xcassets */,
+				314DEC8F262979B70014FABA /* Info.plist */,
+			);
+			path = "Navbar Hue for AWS";
+			sourceTree = "<group>";
+		};
+		314DEC98262979B70014FABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314DEC99262979B70014FABA /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		314DEC9B262979B70014FABA /* Navbar Hue for AWS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				314DECA9262979B80014FABA /* Resources */,
+				314DEC9C262979B70014FABA /* SafariWebExtensionHandler.swift */,
+				314DEC9E262979B70014FABA /* Info.plist */,
+				314DEC9F262979B70014FABA /* Navbar_Hue_for_AWS_Extension.entitlements */,
+			);
+			path = "Navbar Hue for AWS Extension";
+			sourceTree = "<group>";
+		};
+		314DECA9262979B80014FABA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				314DECAA262979B80014FABA /* favicon-16x16.png */,
+				314DECAB262979B80014FABA /* icon.png */,
+				314DECAC262979B80014FABA /* flags */,
+				314DECAD262979B80014FABA /* LICENSE */,
+				314DECAE262979B80014FABA /* css */,
+				314DECAF262979B80014FABA /* popup.html */,
+				314DECB0262979B80014FABA /* _metadata */,
+				314DECB1262979B80014FABA /* README.md */,
+				314DECB2262979B80014FABA /* favicon.png */,
+				314DECB3262979B80014FABA /* scripts */,
+				314DECB4262979B80014FABA /* manifest.json */,
+				314DECB5262979B80014FABA /* favicon-64x64.png */,
+				314DECB6262979B80014FABA /* data */,
+				314DECB7262979B80014FABA /* store_icon-128x128.png */,
+				314DECB8262979B80014FABA /* favicon-32x32.png */,
+			);
+			name = Resources;
+			path = "Navbar Hue for AWS Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314DEC81262979B50014FABA /* Navbar Hue for AWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314DECA6262979B70014FABA /* Build configuration list for PBXNativeTarget "Navbar Hue for AWS" */;
+			buildPhases = (
+				314DEC7E262979B50014FABA /* Sources */,
+				314DEC7F262979B50014FABA /* Frameworks */,
+				314DEC80262979B50014FABA /* Resources */,
+				314DECA5262979B70014FABA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314DEC97262979B70014FABA /* PBXTargetDependency */,
+			);
+			name = "Navbar Hue for AWS";
+			productName = "Navbar Hue for AWS";
+			productReference = 314DEC82262979B50014FABA /* Navbar Hue for AWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314DEC93262979B70014FABA /* Navbar Hue for AWS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314DECA2262979B70014FABA /* Build configuration list for PBXNativeTarget "Navbar Hue for AWS Extension" */;
+			buildPhases = (
+				314DEC90262979B70014FABA /* Sources */,
+				314DEC91262979B70014FABA /* Frameworks */,
+				314DEC92262979B70014FABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navbar Hue for AWS Extension";
+			productName = "Navbar Hue for AWS Extension";
+			productReference = 314DEC94262979B70014FABA /* Navbar Hue for AWS Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314DEC7A262979B50014FABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					314DEC81262979B50014FABA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					314DEC93262979B70014FABA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 314DEC7D262979B50014FABA /* Build configuration list for PBXProject "Navbar Hue for AWS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314DEC79262979B50014FABA;
+			productRefGroup = 314DEC83262979B50014FABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314DEC81262979B50014FABA /* Navbar Hue for AWS */,
+				314DEC93262979B70014FABA /* Navbar Hue for AWS Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314DEC80262979B50014FABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314DEC8E262979B70014FABA /* Assets.xcassets in Resources */,
+				314DEC8A262979B50014FABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314DEC92262979B70014FABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314DECBD262979B80014FABA /* css in Resources */,
+				314DECBF262979B80014FABA /* _metadata in Resources */,
+				314DECC1262979B80014FABA /* favicon.png in Resources */,
+				314DECC6262979B80014FABA /* store_icon-128x128.png in Resources */,
+				314DECC5262979B80014FABA /* data in Resources */,
+				314DECC2262979B80014FABA /* scripts in Resources */,
+				314DECBE262979B80014FABA /* popup.html in Resources */,
+				314DECC7262979B80014FABA /* favicon-32x32.png in Resources */,
+				314DECC3262979B80014FABA /* manifest.json in Resources */,
+				314DECBB262979B80014FABA /* flags in Resources */,
+				314DECBA262979B80014FABA /* icon.png in Resources */,
+				314DECBC262979B80014FABA /* LICENSE in Resources */,
+				314DECC0262979B80014FABA /* README.md in Resources */,
+				314DECB9262979B80014FABA /* favicon-16x16.png in Resources */,
+				314DECC4262979B80014FABA /* favicon-64x64.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314DEC7E262979B50014FABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314DEC8C262979B50014FABA /* ViewController.swift in Sources */,
+				314DEC87262979B50014FABA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314DEC90262979B70014FABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314DEC9D262979B70014FABA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314DEC97262979B70014FABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314DEC93262979B70014FABA /* Navbar Hue for AWS Extension */;
+			targetProxy = 314DEC96262979B70014FABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		314DEC88262979B50014FABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314DEC89262979B50014FABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314DECA0262979B70014FABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		314DECA1262979B70014FABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		314DECA3262979B70014FABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Navbar Hue for AWS Extension/Navbar_Hue_for_AWS_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navbar Hue for AWS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.bekta.Navbar-Hue-for-AWS.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		314DECA4262979B70014FABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Navbar Hue for AWS Extension/Navbar_Hue_for_AWS_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navbar Hue for AWS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.bekta.Navbar-Hue-for-AWS.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		314DECA7262979B70014FABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Navbar Hue for AWS/Navbar_Hue_for_AWS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SDTJGFH7Y5;
+				INFOPLIST_FILE = "Navbar Hue for AWS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.bekta.Navbar-Hue-for-AWS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		314DECA8262979B70014FABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Navbar Hue for AWS/Navbar_Hue_for_AWS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SDTJGFH7Y5;
+				INFOPLIST_FILE = "Navbar Hue for AWS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.bekta.Navbar-Hue-for-AWS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314DEC7D262979B50014FABA /* Build configuration list for PBXProject "Navbar Hue for AWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314DECA0262979B70014FABA /* Debug */,
+				314DECA1262979B70014FABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314DECA2262979B70014FABA /* Build configuration list for PBXNativeTarget "Navbar Hue for AWS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314DECA3262979B70014FABA /* Debug */,
+				314DECA4262979B70014FABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314DECA6262979B70014FABA /* Build configuration list for PBXNativeTarget "Navbar Hue for AWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314DECA7262979B70014FABA /* Debug */,
+				314DECA8262979B70014FABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314DEC7A262979B50014FABA /* Project object */;
+}
