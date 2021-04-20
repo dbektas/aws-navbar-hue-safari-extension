@@ -17,11 +17,8 @@
 		314DECB9262979B80014FABA /* favicon-16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAA262979B80014FABA /* favicon-16x16.png */; };
 		314DECBA262979B80014FABA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAB262979B80014FABA /* icon.png */; };
 		314DECBB262979B80014FABA /* flags in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAC262979B80014FABA /* flags */; };
-		314DECBC262979B80014FABA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAD262979B80014FABA /* LICENSE */; };
 		314DECBD262979B80014FABA /* css in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAE262979B80014FABA /* css */; };
 		314DECBE262979B80014FABA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 314DECAF262979B80014FABA /* popup.html */; };
-		314DECBF262979B80014FABA /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB0262979B80014FABA /* _metadata */; };
-		314DECC0262979B80014FABA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB1262979B80014FABA /* README.md */; };
 		314DECC1262979B80014FABA /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB2262979B80014FABA /* favicon.png */; };
 		314DECC2262979B80014FABA /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB3262979B80014FABA /* scripts */; };
 		314DECC3262979B80014FABA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 314DECB4262979B80014FABA /* manifest.json */; };
@@ -71,11 +68,8 @@
 		314DECAA262979B80014FABA /* favicon-16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favicon-16x16.png"; path = "../../aws-navbar-hue/favicon-16x16.png"; sourceTree = "<group>"; };
 		314DECAB262979B80014FABA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../aws-navbar-hue/icon.png"; sourceTree = "<group>"; };
 		314DECAC262979B80014FABA /* flags */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flags; path = "../../aws-navbar-hue/flags"; sourceTree = "<group>"; };
-		314DECAD262979B80014FABA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../aws-navbar-hue/LICENSE"; sourceTree = "<group>"; };
 		314DECAE262979B80014FABA /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../aws-navbar-hue/css"; sourceTree = "<group>"; };
 		314DECAF262979B80014FABA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../aws-navbar-hue/popup.html"; sourceTree = "<group>"; };
-		314DECB0262979B80014FABA /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../aws-navbar-hue/_metadata"; sourceTree = "<group>"; };
-		314DECB1262979B80014FABA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../aws-navbar-hue/README.md"; sourceTree = "<group>"; };
 		314DECB2262979B80014FABA /* favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favicon.png; path = "../../aws-navbar-hue/favicon.png"; sourceTree = "<group>"; };
 		314DECB3262979B80014FABA /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = "../../aws-navbar-hue/scripts"; sourceTree = "<group>"; };
 		314DECB4262979B80014FABA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../aws-navbar-hue/manifest.json"; sourceTree = "<group>"; };
@@ -161,11 +155,8 @@
 				314DECAA262979B80014FABA /* favicon-16x16.png */,
 				314DECAB262979B80014FABA /* icon.png */,
 				314DECAC262979B80014FABA /* flags */,
-				314DECAD262979B80014FABA /* LICENSE */,
 				314DECAE262979B80014FABA /* css */,
 				314DECAF262979B80014FABA /* popup.html */,
-				314DECB0262979B80014FABA /* _metadata */,
-				314DECB1262979B80014FABA /* README.md */,
 				314DECB2262979B80014FABA /* favicon.png */,
 				314DECB3262979B80014FABA /* scripts */,
 				314DECB4262979B80014FABA /* manifest.json */,
@@ -268,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				314DECBD262979B80014FABA /* css in Resources */,
-				314DECBF262979B80014FABA /* _metadata in Resources */,
 				314DECC1262979B80014FABA /* favicon.png in Resources */,
 				314DECC6262979B80014FABA /* store_icon-128x128.png in Resources */,
 				314DECC5262979B80014FABA /* data in Resources */,
@@ -278,8 +268,6 @@
 				314DECC3262979B80014FABA /* manifest.json in Resources */,
 				314DECBB262979B80014FABA /* flags in Resources */,
 				314DECBA262979B80014FABA /* icon.png in Resources */,
-				314DECBC262979B80014FABA /* LICENSE in Resources */,
-				314DECC0262979B80014FABA /* README.md in Resources */,
 				314DECB9262979B80014FABA /* favicon-16x16.png in Resources */,
 				314DECC4262979B80014FABA /* favicon-64x64.png in Resources */,
 			);
@@ -447,7 +435,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Navbar Hue for AWS Extension/Navbar_Hue_for_AWS_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = SDTJGFH7Y5;
 				INFOPLIST_FILE = "Navbar Hue for AWS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,7 +457,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Navbar Hue for AWS Extension/Navbar_Hue_for_AWS_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = SDTJGFH7Y5;
 				INFOPLIST_FILE = "Navbar Hue for AWS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +484,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = SDTJGFH7Y5;
 				INFOPLIST_FILE = "Navbar Hue for AWS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,7 +509,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = SDTJGFH7Y5;
 				INFOPLIST_FILE = "Navbar Hue for AWS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "AWS Navbar Hue",
+    "name": "Navbar Hue for AWS",
     "description": "Changes AWS console's navbar color depending on the region you select.",
     "version": "1.0.0",
     "browser_action": {
         "default_icon": "favicon.png",
         "default_popup": "popup.html",
-        "default_title": "AWS Navbar Hue"
+        "default_title": "Navbar Hue for AWS"
     },
     "content_scripts": [{
         "matches": ["https://*.console.aws.amazon.com/*"],
