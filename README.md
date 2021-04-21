@@ -16,4 +16,8 @@ The features are the same as the Chrome and Firefox plugins.
 
 ## Installation
 
-The extension is under review by Apple and it will hopefully be available soon. I will update this README with the link once it is approved.
+You can install this extension for Safari from the Mac App Store in this link https://apps.apple.com/ch/app/navbar-hue-for-aws/id1563364656?l=en&mt=12
+
+## Donation
+
+If you would like to support me and the costs associated with publishing the extension in the App Store you can do so here [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D64BGDP)
